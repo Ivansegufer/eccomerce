@@ -25,10 +25,10 @@
                     <thead>
                         <tr>
                             <th scope="col"> </th>
-                            <th scope="col">Product</th>
-                            <th scope="col">Available</th>
-                            <th scope="col" class="text-center">Quantity</th>
-                            <th scope="col" class="text-right">Price</th>
+                            <th scope="col">Producto</th>
+                            <th scope="col">Disponible</th>
+                            <th scope="col" class="text-center">Cantidad</th>
+                            <th scope="col" class="text-right">Precio</th>
                             <th> </th>
                         </tr>
                     </thead>
@@ -39,7 +39,7 @@
                             <tr>
                                 <td><img src="https://dummyimage.com/50x50/55595c/fff" /></td>
                                 <td>@cartItem.ProductName</td>
-                                <td>In stock</td>
+                                <td>En stock</td>
                                 <td><input class="form-control" type="text" value="@cartItem.Quantity" /></td>
                                 <td class="text-right">@(cartItem.Price * cartItem.Quantity) $</td>
                                 <td class="text-right">
@@ -69,7 +69,7 @@
             <div class="row">
                 <div class="col-sm-12  col-md-6">
                     @*<button class="btn btn-lg btn-block btn-danger">Continue Shopping</button>*@
-                    <a asp-page="Product" class="btn btn-lg btn-block btn-success">Continue Shopping</a>
+                    <a asp-page="Product" class="btn btn-lg btn-block btn-success">Continuar comprando</a>
                 </div>
                 <div class="col-sm-12 col-md-6 text-right">
                     @*<button class="btn btn-lg btn-block btn-danger text-uppercase">CheckOut</button>*@

@@ -8,12 +8,12 @@ namespace AspnetRunBasics
 
         public void OnGetContact()
         {
-            Message = "Your email was sent.";
+            Message = "Tu email fue enviado correctamente.";
         }
 
         public void OnGetOrderSubmitted()
         {
-            Message = "Your order submitted successfully.";
+            Message = "Tu orden se ha enviado correctamente.";
         }
     }
 }
